@@ -1,0 +1,25 @@
+ALGORITHM checkpoint
+VAR 
+str:=STRING;
+NBC,NBW,NBV:=INTEGER:=0;
+i:=INTEGER;
+BEGIN
+write("Please enter a sentence that end with a point")
+WHILE(str(i)<>".") DO
+NBC:=NBC+1;
+IF (str(i)=" ") THEN
+NBW:=NBW+1
+END_IF
+IF (str(i)=("a","y","e","u","o","i")) THEN
+NBV:=NBV+1
+END_IF
+IF (conditon) THEN
+    set_instructions
+END_IF
+END_WHILE
+write(NBC)
+write(NBW)
+write(NBV)
+END
+
+
